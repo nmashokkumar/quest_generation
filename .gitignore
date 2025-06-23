@@ -1,0 +1,38 @@
+# 🚫 Ignore virtual environments
+venv/
+nlp_env/
+
+# 🚫 Ignore Python cache and temp files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# 🚫 Ignore model files
+*.safetensors
+*.ckpt
+*.bin
+*.pt
+
+# 🚫 Ignore logs and checkpoints
+*.log
+*.out
+*.checkpoint
+checkpoint-*/
+
+# 🚫 Ignore zip and dataset junk
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# 🚫 Ignore OS junk
+.DS_Store
+Thumbs.db
+
+# 🚫 Ignore VSCode settings (optional)
+.vscode/
+
+# 🚫 Ignore Colab or notebook outputs
+.ipynb_checkpoints/
+*.ipynb
